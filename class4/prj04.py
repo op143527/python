@@ -1,5 +1,5 @@
 try:
-    m = float(input("請輸入成績:"))
+    m = int1(input("請輸入成績:"))
     A = 90
     B = 80
     C = 70

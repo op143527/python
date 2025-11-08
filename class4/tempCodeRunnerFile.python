@@ -1,0 +1,9 @@
+import turtle as x
+
+x.penup()  # 提起畫筆，移動時不會畫線
+x.color("red")  # 將畫筆顏色改為某種顏色
+x.shape("turtle")  # 將畫筆形狀改為烏龜形狀
+for i in range(100006):  # 畫?個蓋章
+    x.stamp()  # 蓋章
+    x.right(10)  # 右轉10度
+x.done()  # 結束繪圖並保持視窗開啟
