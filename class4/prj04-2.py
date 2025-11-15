@@ -1,4 +1,5 @@
-import turtle as x
+
+ import turtle as x
 
 # 匯入模組turtle並命名為x
 x.forward(100)
