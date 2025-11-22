@@ -1,22 +1,22 @@
-import turtle
+import turtle # 匯入 turtle 模組
 
-t = turtle.Turtle()
+t = turtle.Turtle() # 取得烏龜
 t.speed(0)   # 讓烏龜畫最快
 
 # 畫一個小箭頭的函式
 def draw_arrow():
 	t.forward(20)       # 往前畫出箭身
 	t.left(150)         # 開始畫箭頭
-	t.forward(10)
-	t.back(10)
+	t.forward(10)		# 畫箭頭
+	t.back(10)			# 畫箭頭
 	t.right(300)        # 畫另一邊箭頭
-	t.forward(10)
-	t.back(10)
+	t.forward(10)		# 畫另一邊箭頭
+	t.back(10)			# 畫另一邊箭頭
 	t.left(150)         # 將方向調回原方向
 
 # 開始畫 8 個箭頭
-for i in range(8):
-	t.penup()
+for i in range(8):				
+	t.penup()			# 抬起筆
 	t.home()            # 回到位置 (0,0)
 	t.setheading(i * 45) # 每次轉 45 度（360/8）
 	t.forward(40)        # 往外移動到適合位置
