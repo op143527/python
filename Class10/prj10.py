@@ -35,3 +35,18 @@ L = ["Hello", "World", "Python"]
 L.pop(-2)  # 移除倒數第二個元素
 print(L)  # ['Hello', 'Python']
 # 負數索引超過範圍也會產生錯誤訊息
+# enumerate：同時取得元素的編號與內容
+L = ["Hello", "World", "Python"]
+for index, value in enumerate(L):
+    print(index, value)
+    # 0 Hello
+    # 1 World
+    # 2 Python
+# in在for迴圈中代表迴圈變數會依序取得右邊範圍當中的每一個元素
+L = ["Hello", "World", "Python"]
+for item in L:
+    print(item)
+# in還可以用在字串當中，判斷某個字串是否在另一個字串當中
+s = "Hello, World!"
+if "World" in s:
+    print("有world這個字串!")
