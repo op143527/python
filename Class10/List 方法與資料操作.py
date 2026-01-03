@@ -4,10 +4,7 @@
 # 記得List的index是從0開始
 # 如果新增的位置超過List的長度,會自動加入到最後面
 # 如果新增的位置是負數,會從List的最後面開始算起,例如-1是最後一個位置
-L = [
-    "hello",
-    "world",
-]
+L = ["hello", "world"]
 L.insert(1, "python")
 print(L)
 L.insert(-1, "Java")  # 在倒數第一個位置加入 Java

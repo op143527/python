@@ -42,7 +42,7 @@ L = L * 3  # 將 List 的內容重複 3 次
 print(L)  # [1, 2, 3, 1, 2, 3, 1, 2, 3]
 
 # 不同型態之間的轉換技巧
-print(ringe(10))  # range 物件本身看不到具體內容,只是一個範圍描述
+print(range(10))  # range 物件本身看不到具體內容,只是一個範圍描述
 print(list(range(10)))  # 用 list() 轉換成 List 後就可以看到內容
 print(list("Hello"))  # 把字串轉換成 List,每個字元變成 List 的一個元素
 
@@ -77,11 +77,10 @@ print(d["ban"])
 
 # 遍歷字典:有多種有種方式可以遍歷字典中的資料
 d = {"apple": 25, "banana": 30, "orange": 20}
-
 # 方法1:遍歷所有的key
 for key in d:
-    print(k)  # 印出key名稱
-    print(d[k])  # 印出key對應的value
+    print(key)  # 印出key名稱
+    print(d[key])  # 印出key對應的value
 
 # 方法2:明確使用d.keys()取得所有key
 for k in d.keys():

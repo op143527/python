@@ -1,7 +1,7 @@
 # 這是單行註解
 print("Hello, World!")  # 這是單行註解
 # print("Hello, World!")  #這行程式碼不會被執行
-# print("Hello, World!")  #commmand + ? 會變成註解
+# print("Hello, World!")  #ctrl + ? 會變成註解
 """
 這是多行註解
 這是多行註解
